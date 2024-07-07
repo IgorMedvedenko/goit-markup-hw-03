@@ -34,6 +34,8 @@ h6 {
 }
 /*---Header---*/
 .header {
+  border-bottom: 1px solid #e7e9fc;
+  margin-bottom: 6px;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -116,8 +118,7 @@ h6 {
   padding-top: 120px;
   padding-bottom: 120px;
 }
-.advantages-list {
-}
+
 .advantages-title {
   font-weight: 500;
   font-size: 20px;
