@@ -32,10 +32,35 @@ h6 {
   padding-right: 15px;
   margin: 0 auto;
 }
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 /*---Header---*/
 .header {
   border-bottom: 1px solid #e7e9fc;
   margin-bottom: 6px;
+  padding: 24px 0;
+}
+.header .container {
+  display: flex;
+  align-items: center;
+}
+.navigation {
+  display: flex;
+}
+.nav-list {
+  display: flex;
+  margin-right: 332px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 40px;
+}
+.address-list {
+  display: flex;
+  gap: 40px;
+  align-items: center;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -45,6 +70,8 @@ h6 {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
+  align-content: center;
 }
 .logo-part {
   color: #2e2f42;
@@ -87,7 +114,8 @@ h6 {
   text-align: center;
   text-transform: capitalize;
   color: #fff;
-  min-width: 496px;
+  max-width: 496px;
+  margin: 0 auto;
   margin-bottom: 48px;
 }
 .hero-button {
@@ -108,18 +136,23 @@ h6 {
   height: 56px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   border: none;
+  margin: 0 auto;
+  white-space: nowrap;
 }
 .hero-button:hover,
 .hero-button:focus {
   background-color: #404bbf;
 }
 /*---Our Advantages---*/
-.advantages {
-  padding-top: 120px;
-  padding-bottom: 120px;
+.advantages-list {
+  display: flex;
+  gap: 24px;
 }
 
-.advantages-title {
+.advantages-box {
+}
+
+. .advantages-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -135,8 +168,10 @@ h6 {
 /*---Our Team---*/
 .team {
   background-color: #f4f4fd;
-  padding-top: 120px;
-  padding-bottom: 120px;
+}
+.team-list {
+  display: flex;
+  gap: 24px;
 }
 .team-title {
   font-weight: 700;
@@ -150,6 +185,10 @@ h6 {
 }
 .team-holder {
   background-color: #ffffff;
+  padding-bottom: 32px;
+}
+.team-img {
+  margin-bottom: 32px;
 }
 .team-name {
   font-weight: 500;
@@ -167,10 +206,7 @@ h6 {
   text-align: center;
 }
 /*---Our Portfolio---*/
-.portfolio {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
+
 .portfolio-title {
   font-weight: 700;
   font-size: 36px;
@@ -180,6 +216,10 @@ h6 {
   text-transform: capitalize;
   color: #2e2f42;
   margin-bottom: 72px;
+}
+.Portfolio-list {
+  display: flex;
+  width: calc((100% - 24 * 2) / 3);
 }
 .portfolio-img {
   background-color: #ffffff;
