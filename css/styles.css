@@ -223,10 +223,12 @@ h6 {
 }
 .portfolio-list {
   display: flex;
-  width: calc((100% - 2 * 24px) / 3);
+  row-gap: 48px;
+  column-gap: 24px;
+  flex-wrap: wrap;
 }
 .portfolio-holder {
-  display: block;
+  width: calc((100% - 2 * 24px) / 3);
 }
 .portfolio-img {
   background-color: #ffffff;
@@ -239,8 +241,6 @@ h6 {
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
   padding: 32px 16px;
-  width: 360px;
-  height: 120px;
 }
 .portfolio-name {
   font-weight: 500;
