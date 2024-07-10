@@ -27,7 +27,7 @@ h6 {
   margin-bottom: 0;
 }
 .container {
-  max-width: 1128px;
+  width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -47,6 +47,7 @@ h6 {
 }
 .navigation {
   display: flex;
+  align-items: center;
 }
 .nav-list {
   display: flex;
@@ -78,6 +79,7 @@ h6 {
   color: #4d5ae5;
   margin-right: 76px;
   align-content: center;
+  display: inline-block;
 }
 .logo-part {
   color: #2e2f42;
@@ -132,7 +134,7 @@ h6 {
   display: block;
   border-radius: 4px;
   padding: 16px 32px;
-  width: 169px;
+  min-width: 169px;
   height: 56px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   border: none;
@@ -186,13 +188,17 @@ h6 {
 }
 .team-holder {
   background-color: #ffffff;
-  padding-bottom: 32px;
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 .team-img {
-  margin-bottom: 32px;
   display: block;
   max-width: 100%;
   height: auto;
+}
+.team-aside {
+  padding: 32px 0;
 }
 .team-name {
   font-weight: 500;
