@@ -146,6 +146,16 @@ h6 {
   background-color: #404bbf;
 }
 /*---Our Advantages---*/
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  overflow: hidden;
+}
 .advantages-list {
   display: flex;
   gap: 24px;
