@@ -154,6 +154,8 @@ h6 {
   border: 0;
   padding: 0;
   white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0000);
   overflow: hidden;
 }
 .advantages-list {
