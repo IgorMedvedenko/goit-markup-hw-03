@@ -39,7 +39,6 @@ h6 {
 /*---Header---*/
 .header {
   border-bottom: 1px solid #e7e9fc;
-  margin-bottom: 6px;
 }
 .header .container {
   display: flex;
